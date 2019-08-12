@@ -21,7 +21,6 @@ After each page is put together the content
 
 ### Navigation + Header: Bernardo
 Contains a functional navigation with logo/company name, links to all pages
-Header with parallax effect
 ### Popular destinations: Mehdi
 a carousel + some text + CTA button for some popular destinations
 ### Hotels: Ines
@@ -30,6 +29,7 @@ an image some text and a booking button per hotel, multiple hotels in 1 row (on 
 an image + a basic ordering form
 ### Footer: Filip
 footer with basic information, a copyright line and links similar to the nav menu but just as text
+Header with parallax effect
 ### Homepage: Joost
 basic landing page linking to "promotions" or hot destinations
 ### Content aggregation: Filip
