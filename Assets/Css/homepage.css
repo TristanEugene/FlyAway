@@ -1,0 +1,17 @@
+.hot-topic {
+  background-color: darkgrey;
+  background-image: url("https://via.placeholder.com/500x300");
+  border: 1px solid red;
+  width: 100%; }
+
+.last-minute-destination {
+  background-color: darkgrey;
+  border: 1px solid red;
+  width: 100%; }
+
+.last-minute-destination img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; }
+
+/*# sourceMappingURL=homepage.css.map */

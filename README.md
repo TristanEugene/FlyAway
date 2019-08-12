@@ -38,3 +38,5 @@ look for nice images to be used, collect some useful dummy texts
 extra styling on top of bootstrap
 ### Contact-form: 
 a simple contact form for leaving feedback
+
+![alt text](https://github.com/joostvannieu/FlyAway/blob/master/Resources/Schema.png)
