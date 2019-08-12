@@ -1,3 +1,44 @@
-<section>
-    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<section id="about" class="p-4">
+    <!--Google map-->
+    <!--
+    <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+        <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+    </div>
+    -->
+    <div class="row">
+        <div class="col-sm-3">
+            <p>
+            <address>
+                Written by <a href="mailto:webmaster@example.com">Web Master</a>.<br>
+                Visit us at:<br>
+                Sint-Pietersvliet 7<br>
+                2000 Antwerpen<br>
+                BELGIUM
+            </address>
+            </p>
+        </div>
+
+        <div class="col-sm">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameborder="0" style="border:0" allowfullscreen class="col-sm"></iframe>
+        </div>
+    </div>
+    <!-- form contact -->
+    <hr>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Write us something.</small>
+        </div>
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 </section>
