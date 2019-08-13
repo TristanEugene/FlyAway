@@ -14,7 +14,8 @@
     <header>
         <!--Nav-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">FlyWay</a>
+            <a href="#" class="pull-left"><img src="Assets/Media/Imgs/small-logo.png" alt="Fly Away logo"></a>
+            <!--<a class="navbar-brand" href="#">FlyWay</a>-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +32,6 @@
                             Continents
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
                             <a class="dropdown-item" href="#">Africa</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Asia</a>
@@ -53,87 +53,143 @@
         <!--Parallax-->
     </header>
 <!--Popular destinations-->
-    <div class="container my-container">
-        <div class="row my-4 my-row ">
-            <img src="Assets/Media/Imgs/pop2.jpg" alt="malawi" class="col-md-4 img1 ">
-            <div class="col-md-8 first-col">
-                <div class="info-text">
-                    <h2>Popular destinations</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <a href="#" class="btn btn-primary">DISCOVER NOW</a>
-                </div>
-                <div class="my-list row justify-content-between mt-2">
-                    <ul class="list-group col-md-3 ">
-                        <a href="#" class="list-group-item list-group-item-light">South-Africa</a>
-                        <a href="#" class="list-group-item list-group-item-light">Seychelles</a>
-                        <a href="#" class="list-group-item list-group-item-light">Botswana</a>
+    <div class="container pop-container">
+        <div class="row my-4 this-row">
+        <img src="Assets/Media/Imgs/pop2.jpg" alt="malawi" class="col-md-4 img-pop">
 
-                    </ul>
-                    <ul class="list-group col-md-4">
-                        <a href="#" class="list-group-item list-group-item-light">Reunion Island</a>
-                        <a href="#" class="list-group-item list-group-item-light">Rwanda</a>
-                        <a href="#" class="list-group-item list-group-item-light">Sao Tomé e Principe</a>
-                    </ul>
-                    <ul class="list-group col-md-3">
-                        <a href="#" class="list-group-item list-group-item-light">Zanzibar</a>
-                        <a href="#" class="list-group-item list-group-item-light">Kenya</a>
-                        <a href="#" class="list-group-item list-group-item-light">Morocco</a>
-                    </ul>
+        <div class="col-md-8 pop-col">
+            <div class="pop-text">
+                <h2>Popular destinations</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn btn-primary mvbutton">DISCOVER NOW</a>
+            </div>
+            <div class="pop-list row  mt-3">
+                <ul class="list-group col-md-3 ">
+                    <li><a href="#" class="list-group-item">South-Africa</a></li>
+                    <li><a href="#" class="list-group-item">Seychelles</a></li>
+                    <li><a href="#" class="list-group-item">Botswana</a></li>
+
+                </ul>
+                <ul class="list-group col-md-3">
+                    <li><a href="#" class="list-group-item">Reunion Island</a></li>
+                    <li><a href="#" class="list-group-item">Rwanda</a></li>
+                    <li><a href="#" class="list-group-item">Sao Tomé e</a></li>
+
+                </ul>
+                <ul class="list-group col-md-3">
+                    <li><a href="#" class="list-group-item">Zanzibar</a></li>
+                    <li><a href="#" class="list-group-item">Kenya</a></li>
+                    <li><a href="#" class="list-group-item">Morocco</a></li>
+                </ul>
+                <ul class="list-group col-md-3">
+                    <li><a href="#" class="list-group-item">Egypt</a></li>
+                    <li><a href="#" class="list-group-item">Tanzania</a></li>
+                    <li><a href="#" class="list-group-item">Zambia</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-2">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                   href="#list-home" role="tab" aria-controls="home">Botswana</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                   href="#list-profile" role="tab" aria-controls="profile">Sao Tomé</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                   href="#list-messages" role="tab" aria-controls="messages">South-Africa</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                   href="#list-settings" role="tab" aria-controls="settings">Tanzania</a>
+            </div>
+        </div>
+            <div class="col-md-5">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
         </div>
-        <div class="row my-4 my-row">
-            <div class="col-sm-3">
+            <img src="https://globalpressjournal.com/wp-content/uploads/2015/11/GPJ-Africa1.png" alt="malawi" class="col-md-5 img-africa">
+        </div>
+        <div class="row my-4 this-row">
+            <div class="col-md-3">
                 <div class="card">
                     <img class="card-img-top rondo" src="Assets/Media/Imgs/pop4.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Seychelles</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
                         <a href="#" class="btn btn-primary">More Information</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top rondo" src="Assets/Media/Imgs/pop7.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Reunion Island</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">More information</a>
-                    </div>
+            <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top rondo" src="Assets/Media/Imgs/pop7.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Reunion Island</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">More information</a>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top rondo" src="Assets/Media/Imgs/pop6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Kenya</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">More information</a>
-                    </div>
+        </div>
+            <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top rondo" src="Assets/Media/Imgs/pop6.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Kenya</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">More information</a>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top rondo" src="Assets/Media/Imgs/pop3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Zanzibar</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">More information</a>
-                    </div>
+        </div>
+            <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top rondo" src="Assets/Media/Imgs/pop3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Zanzibar</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">More information</a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 <!--Hotels-->
     <div class="container my-5">
-        <h1>Our Hotels</h1>
+    <h1>Our Hotels</h1>
         <div class="row">
             <div class="col-md-4 p-4">
                 <div class="bg-light p-3">
@@ -156,7 +212,9 @@
             <div class="col-md-4 p-4">
                 <div class="bg-light p-3">
                     <div class="text-center my-3">
-                        <img src="https://via.placeholder.com/250x200" alt="...">
+                        <figure>
+                            <img class="hotel-image" src="https://via.placeholder.com/250x200" alt="...">
+                        </figure>
                     </div>
                     <div>
                         <h3>Hotel</h3>
@@ -172,7 +230,9 @@
             <div class="col-md-4 p-4">
                 <div class="bg-light p-3">
                     <div class="text-center my-3">
-                        <img src="https://via.placeholder.com/250x200" alt="...">
+                        <figure>
+                            <img class="hotel-image" src="https://via.placeholder.com/250x200" alt="...">
+                        </figure>
                     </div>
                     <div>
                         <h3>Hotel</h3>
@@ -188,7 +248,9 @@
             <div class="col-md-4 p-4">
                 <div class="bg-light p-3">
                     <div class="text-center my-3">
-                        <img src="https://via.placeholder.com/250x200" alt="...">
+                        <figure>
+                            <img class="hotel-image" src="https://via.placeholder.com/250x200" alt="...">
+                        </figure>
                     </div>
                     <div>
                         <h3>Hotel</h3>
@@ -204,7 +266,27 @@
             <div class="col-md-4 p-4">
                 <div class="bg-light p-3">
                     <div class="text-center my-3">
-                        <img src="https://via.placeholder.com/250x200" alt="...">
+                        <figure>
+                            <img class="hotel-image" src="https://via.placeholder.com/250x200" alt="...">
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>Hotel</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci architecto autem beatae dolores ducimus, eos eveniet ex harum ipsa magni, molestiae non odio officiis perferendis quia reiciendis sunt?
+                        </p>
+                        <div class="text-right">
+                            <a class="btn btn-primary btn-md" href="#"> Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <div class="bg-light p-3">
+                    <div class="text-center my-3">
+                        <figure>
+                            <img class="hotel-image" src="https://via.placeholder.com/250x200" alt="...">
+                        </figure>
                     </div>
                     <div>
                         <h3>Hotel</h3>
@@ -222,7 +304,7 @@
 <!--Car rental-->
     <div class="container">
         <div class="row">
-            <div class="col d-flex min-width:300px">
+            <div class=" col-md-7 p-4">
                 <form action="MAILTO:CarRental@example.com" method="get" enctype="text/plain" class="form-horizontal">
                     <div class="customer information">
                         <label for="name">Name:</label> <input type="text" id="name" name="user_name">
@@ -251,9 +333,7 @@
                     <input type="submit" value="Send">
                 </form>
             </div>
-        </div>
-        <div class="col d-flex min-width:300px">
-            <img class="img-fluid max width:100%  height:auto" src="Assets/Media/Imgs/KIA_FORT_2015.webp" alt="Car Image">
+            <img class="col-md-5" src="Assets/Media/Imgs/KIA_FORT_2015.webp" alt="Car Image">
         </div>
     </div>
 <!--Footer-->
@@ -302,14 +382,13 @@
                 </div>
                 <div class="col-md-3 mb-md-0 mb-3">
                     <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fab fa-facebook" style="color:#DDDDDD;"><!-- icon --></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fab fa-twitter" style="color:#DDDDDD;"><!-- icon --></i></a></li>
-                        <li><a class="instagram" href="#"><i class="fab fa-instagram" style="color:#DDDDDD;"><!-- icon --></i></a></li>
+                        <li><a class="facebook" href="#"><i class="fal fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fal fa-twitter"></i></a></li>
+                        <li><a class="Instagram" href="#"><i class="fal fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </footer>
 <!--javascript-->
