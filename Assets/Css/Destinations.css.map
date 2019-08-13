@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,GAAI;EAAC,UAAU,EAAE,IAAI;;AAErB,KAAM;EAAC,eAAe,EAAC,IAAI",
+"sources": ["Destinations.scss"],
+"names": [],
+"file": "Destinations.css"
+}
