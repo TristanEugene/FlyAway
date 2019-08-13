@@ -1,4 +1,4 @@
-$font-color: red;
+$font-color: #333333;
 $fly-away-blue: #0088ce;
 
 *{
@@ -8,10 +8,70 @@ $fly-away-blue: #0088ce;
 body{
   font-family: "Lato Medium", sans-serif;
   color: $font-color;
+  line-height: 2em;
 }
-.active, h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
+  font-family: "Lato Heavy";
+  text-transform: uppercase;
   color: $fly-away-blue;
+}
+.fly-away-blue a{
+  color: $fly-away-blue;
+  margin: 10px 0;
+}
+.fly-away-blue a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: $fly-away-blue;
 }
 .navbar-light .navbar-nav .nav-link{
   color: $fly-away-blue;
+}
+.fly-away-blue{
+  color: $fly-away-blue;
+}
+.btn-primary{
+  background-color: $fly-away-blue;
+}
+.pop-col{
+  text-align: justify;
+  padding: 0 50px;
+}
+.list-group-item.active{
+  background-color: $fly-away-blue;
+  border-color: $fly-away-blue;
+}
+.bg-light{
+  background-color: white !important;
+  border: 1px solid #dddddd;
+}
+.car-selector{
+  border: 1px solid $fly-away-blue;
+}
+.bg-lightblue{
+  background-color: #e2f3fe;
+}
+textarea{
+  resize: none;
+}
+.site-footer{
+  color: $font-color;
+}
+.site-footer a{
+  color: $font-color;
+}
+.site-footer a:hover{
+  color: $fly-away-blue;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+  color: $fly-away-blue;
+}
+.to-top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 20px;
+}
+.to-top a:hover{
+  text-decoration: none;
 }
