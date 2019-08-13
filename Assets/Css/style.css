@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Lato Medium", sans-serif;
+  color: red; }
+
+.active, h1, h2, h3, h4, h5, h6 {
+  color: #0088ce; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0088ce; }
+
+/*# sourceMappingURL=style.css.map */
