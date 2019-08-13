@@ -1,0 +1,15 @@
+.parallax { 
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#id-parllax-image{
+    background-image: url("../Media/Imgs/america/new-york.jpg");
+}
+
+#id-parllax-image-2{
+    background-image: url("../Media/Imgs/europe/barcelona.jpg");
+}
