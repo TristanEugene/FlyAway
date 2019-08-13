@@ -1,1 +1,13 @@
 .img2 { border-radius: 50%;}
+
+.my-container { background-color:white;}
+.info-text {border: 1px solid brown;
+text-align: center;}
+.my-col { border: 1px solid blue;}
+.my-list { border: 1px solid green;
+}
+.first-col {border: 1px solid yellow;}
+.img2 {border: 1px solid red;}
+.img1 {border:1px solid orange;}
+.h2 {text-align: left;}
+
