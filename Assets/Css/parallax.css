@@ -13,3 +13,11 @@
 #id-parllax-image-2{
     background-image: url("../Media/Imgs/europe/barcelona.jpg");
 }
+
+#id-parllax-image-asia-1{
+    background-image: url("../Media/Imgs/parallax-images/asia/Background-Fuji.jpg");
+}
+
+#id-parllax-image-asia-2{
+    background-image: url("../Media/Imgs/parallax-images/asia/Background-city.jpg");
+}
