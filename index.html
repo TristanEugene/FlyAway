@@ -7,51 +7,52 @@
     <link rel="stylesheet" href="./Assets/Css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="./Assets/Css/homepage.css">
     <link rel="stylesheet" href="./Assets/Css/footer-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/Css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--navigation-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="#" class="pull-left"><img src="Assets/Media/Imgs/small-logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Continents
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                    <a class="dropdown-item" href="#">Africa</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Asia</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Europe</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">North America</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Australia</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">South America</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item disabled" href="#">Antarctica</a>
-                </div>
-            </li>
-            </li>
-        </ul>
-    </div>
-</nav>
+<!--Header with Nav-->
+<header>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <a href="#" class="pull-left"><img src="Assets/Media/Imgs/small-logo.png" alt="Fly Away logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Continents
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item fly-away-blue" href="europe.html">Europe</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue" href="north-america.html">North America</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue" href="south-america.html">South America</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue" href="africa.html">Africa</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue" href="asia.html">Asia</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue" href="australia.html">Australia</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item fly-away-blue disabled" href="antarctica.html">Antarctica</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 <!--main-->
-<main class="container">
+<main class="container mt-5">
     <!--section hot destinations-->
     <section>
         <div class="row m-2">
@@ -115,7 +116,7 @@
     </div>
     </section>
     <!--section last minute-->
-    <section>
+    <section class="mt-5">
         <div class="row m-2">
             <h1>Last-minute Trips</h1>
         </div>
@@ -195,7 +196,7 @@
         </div>
     </section>
     <!--section why FlyAway-->
-    <section>
+    <section class="mt-5">
         <div class="row m-2">
             <h1>Why book with FlyAway?</h1>
         </div>
@@ -206,7 +207,7 @@
                         <img class="rounded-circle bg-dark circle-img" src="https://via.placeholder.com/150" alt="..."/>
                     </div>
                     <div class="row d-flex justify-content-center text-center my-4">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h4>Lorem ipsum dolor</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur enim est fugiat magnam
                             nulla reiciendis rerum sed tempore tenetur?
@@ -220,7 +221,7 @@
                         <img class="rounded-circle bg-dark circle-img" src="https://via.placeholder.com/150" alt="..."/>
                     </div>
                     <div class="row d-flex justify-content-center text-center my-4">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h4>Lorem ipsum dolor</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur enim est fugiat magnam
                             nulla reiciendis rerum sed tempore tenetur?
@@ -234,7 +235,7 @@
                         <img class="rounded-circle bg-dark circle-img" src="https://via.placeholder.com/150" alt="..."/>
                     </div>
                     <div class="row d-flex justify-content-center text-center my-4">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h4>Lorem ipsum dolor</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur enim est fugiat magnam
                             nulla reiciendis rerum sed tempore tenetur?
@@ -248,7 +249,7 @@
                         <img class="rounded-circle bg-dark circle-img" src="https://via.placeholder.com/150" alt="..."/>
                     </div>
                     <div class="row d-flex justify-content-center text-center my-4">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h4>Lorem ipsum dolor</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur enim est fugiat magnam
                             nulla reiciendis rerum sed tempore tenetur?
@@ -260,7 +261,7 @@
     </section>
 </main>
 <!--footer-->
-<footer class="site-footer bg-dark">
+<footer class="site-footer bg-lightblue mt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">
@@ -315,6 +316,10 @@
     </div>
     </div>
 </footer>
+<!--Aside to top-->
+<aside class="to-top">
+    <a href="#">^ Top</a>
+</aside>
 <!--javascript-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
