@@ -1,5 +1,6 @@
 # FlyAway
 A travel agency
+https://joostvannieu.github.io/FlyAway/index.html
 
 ## Folder structure:
 Main folder: contains html
