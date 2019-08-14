@@ -75,3 +75,40 @@ textarea{
 .to-top a:hover{
   text-decoration: none;
 }
+/*Homepage*/
+.transparent-frame{
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+#hot-topic-1{
+  background-color: darkgrey;
+  background-image: url("../Media/Imgs/homepage/safari.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#hot-topic-2{
+  background-color: darkgrey;
+  background-image: url("../Media/Imgs/homepage/roadtrip.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#hot-topic-3{
+  background-color: darkgrey;
+  background-image: url("../Media/Imgs/homepage/wine-tour.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#hot-topic-4{
+  background-color: darkgrey;
+  background-image: url("../Media/Imgs/homepage/carnival.jpg");
+  background-size: cover;
+  width: 100%;
+}
+.last-minute-destination {
+
+  width: 100%; }
+
+.last-minute-destination img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; }
