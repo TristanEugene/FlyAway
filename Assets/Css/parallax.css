@@ -13,3 +13,11 @@
 #id-parllax-image-2{
     background-image: url("../Media/Imgs/europe/barcelona.jpg");
 }
+
+#id-parallax-image-south-america-1{
+    background-image: url("../Media/Imgs/parallax-images/south-america/brasil.jpeg");
+}
+
+#id-parallax-image-south-america-2{
+    background-image: url("../Media/Imgs/parallax-images/south-america/chile.jpg");
+}
