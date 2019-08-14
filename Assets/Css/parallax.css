@@ -29,10 +29,17 @@
     background-image: url("../Media/Imgs/parallax-images/south-america/chile.jpg");
 }
 
-#id-parllax-image-europe-1{
-    background-image: url("../Media/Imgs/europe/wild-taiga-finland.jpg");
+#id-parallax-image-north-america-1{
+    background-image: url("../Media/Imgs/parallax-images/north-america/new-york.jpg");
 }
 
+#id-parallax-image-north-america-2{
+    background-image: url("../Media/Imgs/parallax-images/north-america/las-vegas.jpg");
+}
+
+#id-parllax-image-europe-1{
+    background-image: url("../Media/Imgs/europe/san-marino-italie.jpg");
+}
 #id-parllax-image-europe-2{
     background-image: url("../Media/Imgs/europe/san-sebastian-spain.jpg");
 }
