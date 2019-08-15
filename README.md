@@ -21,20 +21,15 @@ Each team member will first make a basic component of the website, these compone
 Each team member will then add content for each page.
 
 ### Navigation + Header: Bernardo
-Contains a functional navigation with logo/company name, links to all pages
-Parallax effect + About page + South America page
+Contains a functional navigation with logo/company name, links to all pages, parallax effect + About page
 ### Popular destinations: Mehdi
 A carousel + some text + CTA button for some popular destinations
-Africa page
 ### Hotels: Ines
 An image + some text and a booking button per hotel, multiple hotels in 1 row (on larger screens)
-Europe page
 ### Car rental: Loic
 An image + a basic ordering form
-Asia page
 ### Footer: Filip
 Footer with basic information, a copyright line and links similar to the nav menu but just as text
-North America page
 ### Homepage: Joost
 Basic landing page linking to "promotions" or hot destinations
 ### Content aggregation: Filip
