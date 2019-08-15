@@ -22,7 +22,7 @@ Each team member will then add content for each page.
 
 ### Navigation + Header: Bernardo
 Contains a functional navigation with logo/company name, links to all pages
-Parallax effect + About page, South America page
+parallax effect, about page, South America page
 ### Popular destinations: Mehdi
 A carousel + some text + CTA button for some popular destinations, Africa page
 ### Hotels: Ines
