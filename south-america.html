@@ -346,7 +346,7 @@
             <div class=" col-md-7 p-4">
                 <form action="MAILTO:CarRental@example.com" method="get" enctype="text/plain" class="form-horizontal">
                     <div class="customer information">
-                        <label for="name">Name:</label> <input type="text" id="name" name="user_name">
+                        <label for="name" style="min-width: 55px;">Name:</label> <input type="text" id="name" name="user_name" style="min-width: 55px;">
                     </div>
                     <div class="customer information">
                         <label for="e-mail">E-mail:</label> <input type="text" id="e-mail" name="user_mail">
@@ -367,7 +367,8 @@
                     </label>
                     <br>
                     <br>
-                    <label for="msg"></label><textarea id="msg" name="user_message" placeholder="would you like to add something?"></textarea><br>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="would you like to add something?"></textarea><br>
                     <input class="btn btn-primary" type="submit" value="Send">
                 </form>
             </div>
