@@ -17,27 +17,28 @@ Main folder: contains html
 Initially  focus on creating your responsive layout to have a breakpoint for extra small and small (col-) and a breakpoint for medium, large and extra large (col-md-)
 
 ## Task distribution
-Each team member will first make a basic component of the website, these components will then later be added together per page.
-After each page is put together the content
+Each team member will first make a basic component of the website, these components will then be added together per page.
+Each team member will then add content for each page.
 
 ### Navigation + Header: Bernardo
 Contains a functional navigation with logo/company name, links to all pages
+parallax effect, about page, South America page
 ### Popular destinations: Mehdi
-a carousel + some text + CTA button for some popular destinations
+A carousel + some text + CTA button for some popular destinations, Africa page
 ### Hotels: Ines
-an image some text and a booking button per hotel, multiple hotels in 1 row (on lgarger screens)
+An image + some text and a booking button per hotel, multiple hotels in 1 row (on larger screens), Europe page
 ### Car rental: Loic
-an image + a basic ordering form
+An image + a basic ordering form, Asia page
 ### Footer: Filip
-footer with basic information, a copyright line and links similar to the nav menu but just as text
-Header with parallax effect
+Footer with basic information, a copyright line and links similar to the nav menu but just as text, North America page
 ### Homepage: Joost
-basic landing page linking to "promotions" or hot destinations
+Basic landing page linking to "promotions" or hot destinations
 ### Content aggregation: Filip
-look for nice images to be used, collect some useful dummy texts
+Looking for nice images to be used, collecting some useful dummy texts
 ### Main CSS styling: 
-extra styling on top of bootstrap
+Extra styling on top of bootstrap
 ### Contact-form: 
-a simple contact form for leaving feedback
+A simple contact form for leaving feedback
 
+### Moodboard/Mockup: 
 ![alt text](https://github.com/joostvannieu/FlyAway/blob/master/Resources/Schema.png)
